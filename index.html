@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Personal Homepage</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 50px 0;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+        .profile-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #fff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h1 {
+            margin: 20px 0 10px;
+            font-size: 2.5em;
+            color: #fff;
+        }
+        .subtitle {
+            font-size: 1.2em;
+            color: #ddd;
+        }
+        section {
+            background: #fff;
+            margin: 20px 0;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #667eea;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+            padding: 10px;
+            background: #f9f9f9;
+            border-left: 4px solid #667eea;
+        }
+        .publication {
+            margin: 15px 0;
+        }
+        .publication-title {
+            font-weight: bold;
+        }
+        .publication-authors, .publication-journal {
+            font-style: italic;
+            color: #666;
+        }
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+            .profile-photo {
+                width: 120px;
+                height: 120px;
+            }
+            section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="https://via.placeholder.com/150" alt="Profile Photo" class="profile-photo">
+            <h1>John Doe</h1>
+            <p class="subtitle">PhD Candidate in Architecture and Civil Engineering</p>
+        </header>
+
+        <section id="research">
+            <h2>Research Interests</h2>
+            <p>My research focuses on Architecture and Civil Engineering, particularly in sustainable design, structural analysis, and innovative construction techniques.</p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>PhD in Civil Engineering</strong><br>University of Example, 2020 - Present</li>
+                <li><strong>Master of Science in Architecture</strong><br>University of Example, 2018 - 2020</li>
+                <li><strong>Bachelor of Engineering in Civil Engineering</strong><br>University of Example, 2014 - 2018</li>
+            </ul>
+        </section>
+
+        <section id="publications">
+            <h2>Publications</h2>
+            <div class="publication">
+                <p class="publication-title">Sustainable Architecture in Urban Environments</p>
+                <p class="publication-authors">John Doe, Jane Smith</p>
+                <p class="publication-journal">Journal of Architecture and Engineering, 2023</p>
+            </div>
+            <div class="publication">
+                <p class="publication-title">Structural Analysis of Modern Bridges</p>
+                <p class="publication-authors">John Doe</p>
+                <p class="publication-journal">Civil Engineering Review, 2022</p>
+            </div>
+            <div class="publication">
+                <p class="publication-title">Innovations in Green Building Materials</p>
+                <p class="publication-authors">John Doe, Robert Johnson</p>
+                <p class="publication-journal">Sustainable Construction Journal, 2021</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
