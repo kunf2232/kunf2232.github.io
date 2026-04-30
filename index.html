@@ -74,6 +74,16 @@
             font-style: italic;
             color: #666;
         }
+        .clustrmaps-widget {
+            margin: 40px auto 0;
+            padding: 20px;
+            max-width: 980px;
+            background: rgba(255, 255, 255, 0.12);
+            border-radius: 14px;
+            text-align: center;
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+            backdrop-filter: blur(6px);
+        }
         @media (max-width: 768px) {
             h1 {
                 font-size: 2em;
@@ -84,6 +94,9 @@
             }
             section {
                 padding: 20px;
+            }
+            .clustrmaps-widget {
+                padding: 16px;
             }
         }
     </style>
@@ -116,6 +129,10 @@
             <h2>Publications</h2>
             <p>Publication details are currently being prepared and will be available soon.</p>
         </section>
+
+        <div class="clustrmaps-widget">
+            <script type="text/javascript" id="clustrmaps" src="https://clustrmaps.com/map_v2.js?d=9sRsnkxeBqJlyc1u1P6DNN1YU1iuWvKfUr0D_zc92TA&cl=ffffff&w=a"></script>
+        </div>
     </div>
 </body>
 </html>
